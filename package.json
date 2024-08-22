@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Projeto inicial de Back-End com Node.js",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon src/server.js"
   },
   "keywords": [
     "nodejs",
@@ -13,10 +15,5 @@
     "dev"
   ],
   "author": "Carlos Augusto",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.4"
-  }
+  "license": "MIT"
 }
